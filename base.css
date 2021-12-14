@@ -83,6 +83,7 @@ textarea {
 button,
 select {
   text-transform: none;
+  border-radius: 10px;
 }
 [type="button"],
 [type="reset"],
@@ -143,7 +144,7 @@ html {
   --grey: #e7e7e7;
   --gray: var(--grey);
   --blue: #4a4e69;
-  --pink: #c9ada7;
+  --pink: #318177;
   --yellow: #ffc600;
   --black: #2e2e2e;
   --red: #c73737;
