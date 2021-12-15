@@ -14,10 +14,11 @@
     display: grid;
     align-content: center;
     justify-content: center;
-    color: white;
+    color: #b1a8a3;
     font-size: 50px;
     font-family: sans-serif;
-    border: 5px solid #a9d6e5;
+    border: 5px solid #1a6b75;
+    border-radius: 10px;
     transition: all .25s;
     transform: translateX(-200%);
   }
