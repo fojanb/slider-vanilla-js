@@ -8,7 +8,10 @@ button
   text-transform: none;
   border-radius: 10px;
 }
-
+button:hover{
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
 [type="button"],
 [type="reset"],
 [type="submit"],
@@ -31,7 +34,7 @@ button:-moz-focusring {
 
 /* Variables */
 html {
-  --grey: #b1a8a3;
+  --grey: #2a9d8f;
   --gray: var(--grey);
   --dark: rgb(19, 15, 15);
   --pink: hsl(182, 25%, 50%, 0.1);
@@ -61,8 +64,8 @@ body {
 }
 button,
 input[type="button"] {
-  color: #b1a8a3;
-  background: var(--pink);
+  color: #2a9d8f;
+  background: var(--dark);
   padding: 1rem;
   border: 0;
   border: 2px solid transparent;
