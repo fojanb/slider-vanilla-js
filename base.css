@@ -36,8 +36,8 @@ button:-moz-focusring {
 html {
   --grey: #2a9d8f;
   --gray: var(--grey);
-  --dark: rgb(19, 15, 15);
-  --pink: hsl(182, 25%, 50%, 0.1);
+  --dark: #22272e;
+  --pink: #2d333b;
   --yellow: #ffc600;
   --black: #2e2e2e;
   --red: #c73737;
@@ -64,7 +64,7 @@ body {
 }
 button,
 input[type="button"] {
-  color: #2a9d8f;
+  color: #277da1;
   background: var(--dark);
   padding: 1rem;
   border: 0;

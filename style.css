@@ -14,10 +14,9 @@
     display: grid;
     align-content: center;
     justify-content: center;
-    color: #b1a8a3;
+    color: #855c8f;
     font-size: 50px;
     font-family: sans-serif;
-    border: 1px solid #a16e43;
     border-radius: 10px;
     transition: all .25s;
     transform: translateX(-200%);
